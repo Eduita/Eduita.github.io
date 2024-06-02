@@ -112,17 +112,7 @@
         <p>&copy; 2024 Eduardo Italiani. All rights reserved.</p>
     </footer>
 
-    <script>
-        const navLinks = document.querySelectorAll('nav a');
-        navLinks.forEach(link => {
-            link.addEventListener('click', (e) => {
-                e.preventDefault();
-                document.querySelector(e.target.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
+    <script src="scripts.js"></script>
     
 </body>
 </html>
