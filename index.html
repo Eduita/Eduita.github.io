@@ -9,18 +9,26 @@
 <body>
 
     <header>
+        <div class="profile-container">
+            <img src="site_images/Profile.jpg" alt="Profile Image" class="profile-image">
+        </div>
         <h1>Eduardo Italiani</h1>
         <p>Senior Manager Data Science and AI Solutions Developer</p>
     </header>
 
     <nav>
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
-        <a href="#education">Education</a>
-        <a href="#projects">Projects</a>
-        <a href="#publications">Publications</a>
-        <a href="#contact">Contact</a>
+        <div class="menu-icon" id="menu-icon">
+            &#9776;
+        </div>
+        <div class="nav-links" id="nav-links">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#publications">Publications</a>
+            <a href="#contact">Contact</a>
+        </div>
     </nav>
 
     <div class="container">
@@ -39,7 +47,7 @@
                 <li>Created data analytics solutions for clinical quality feasibility and trial intelligence, utilizing statistical analysis and machine learning algorithms.</li>
             </ul>
             <h3>Columbia SIPA | Center on Global Energy Policy</h3>
-            <p>Research Worker on Low-Carbon Ammonia Production (Jan 2023 - Present)</p>
+            <p>Research Worker on Low-Carbon Ammonia Production (Jan 2023 - Dec 2023)</p>
             <ul>
                 <li>Developed advanced techno-economic models to forecast low-carbon ammonia production performance considering technical, regulatory, environmental, and market risks in a Monte Carlo framework.</li>
                 <li>Led a comprehensive study on the Inflation Reduction Act's impacts on low-carbon ammonia and hydrogen, covering various pathways including biofuels, carbon capture, and electrolysis powered by renewable energy.</li>
@@ -57,11 +65,28 @@
 
         <div id="skills" class="section">
             <h2>Skills</h2>
-            <ul>
-                <li>Finance: Probabilistic Discounted Cash Flow, Real Engineering Options Modeling, Sensitivity Analysis, Monte Carlo simulations.</li>
-                <li>Technology: Python (Pandas, Scikit-learn, PyMDE), AI, Machine Learning, Statistical Analysis, Google Cloud Services, ASPEN, CSS, HTML, Microsoft Excel Macros, @Risk, SQL, AWS, PyXLL.</li>
-                <li>Domain Knowledge: Pharmaceutical Unit Operations, Sterilization, Biologics, Powder/Particle Processing, Design of Experiment (DoE), FDA Regulation.</li>
-                <li>Languages: Native Spanish speaker.</li>
+            <ul class="skills-list">
+                <li class="skill-item">Probabilistic Discounted Cash Flow</li>
+                <li class="skill-item">Real Engineering Options Modeling</li>
+                <li class="skill-item">Sensitivity Analysis</li>
+                <li class="skill-item">Monte Carlo Simulations</li>
+                <li class="skill-item">Python (Pandas, Scikit-learn, PyMDE)</li>
+                <li class="skill-item">AI & Machine Learning</li>
+                <li class="skill-item">Statistical Analysis</li>
+                <li class="skill-item">Google Cloud Services</li>
+                <li class="skill-item">ASPEN</li>
+                <li class="skill-item">CSS & HTML</li>
+                <li class="skill-item">Microsoft Excel Macros</li>
+                <li class="skill-item">@Risk</li>
+                <li class="skill-item">SQL & AWS</li>
+                <li class="skill-item">PyXLL</li>
+                <li class="skill-item">Pharmaceutical Unit Operations</li>
+                <li class="skill-item">Sterilization</li>
+                <li class="skill-item">Biologics</li>
+                <li class="skill-item">Powder/Particle Processing</li>
+                <li class="skill-item">Design of Experiment (DoE)</li>
+                <li class="skill-item">FDA Regulation</li>
+                <li class="skill-item">Native Spanish Speaker</li>
             </ul>
         </div>
 
@@ -81,7 +106,7 @@
         </div>
 
         <div id="projects" class="section">
-            <h2>Academic Projects</h2>
+            <h2>Academic Projects</h3>
             <h3>Worcester Polytechnic Institute</h3>
             <p>Techno-Economic Analysis of Biofuel Production from Wet Waste Biomass (Major Qualifying Project, Mar 2019 - Nov 2021)</p>
             <ul>
@@ -108,9 +133,11 @@
         </div>
     </div>
 
-    <footer>
-        <p>&copy; 2024 Eduardo Italiani. All rights reserved.</p>
-    </footer>
+    <div class="footer_container">
+        <footer>
+            <p>&copy; 2024 Eduardo Italiani. All rights reserved.</p>
+        </footer>
+    </div>
 
     <script src="scripts.js"></script>
     
