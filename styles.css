@@ -98,6 +98,16 @@ nav a:hover {
 .section h2:hover {
     color: #4b5968;
 }
+.skills-section {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.skills-section h2 {
+    width: 100%;
+    margin-bottom: 20px;
+}
 .skills ul, .publications ul {
     list-style-type: none;
     padding: 0;
@@ -116,6 +126,21 @@ nav a:hover {
     justify-content: left;
     gap: 10px;
 }
+.skills-category {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+.skills-category h3 {
+    margin-bottom: 10px;
+}
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 .skill-item {
     background-color: #f0f0f0;
     border: 1px solid #ccc;
@@ -123,6 +148,9 @@ nav a:hover {
     padding: 10px 15px;
     display: inline-block;
     font-size: 14px;
+}
+.skill-item:hover {
+    background-color: #d0d0d0;
 }
 
 .footer_container {
